@@ -1,0 +1,5 @@
+<disk type='block' device='disk'>
+    <driver name='lxc' cache='none'/>
+    <source dev='/dev/loop0'/>
+    <target dev='vdb' bus='virtio'/>
+</disk>
